@@ -241,8 +241,6 @@ inspiration_source: "메트로이드바니아 게임 메커니즘 + 코드베이
 
 **영감**: 메트로이드바니아 게임의 탐험 메커니즘을 코드 네비게이션에 적용
 
-**관련 프로젝트**: heritage (모노레포 관리 경험)
-
 **참고자료**: 
 - Three.js 공식 문서 (3D 렌더링)
 - TypeScript Compiler API (AST 분석)

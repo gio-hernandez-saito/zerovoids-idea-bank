@@ -225,8 +225,6 @@ OKLCH ↔ HSL 변환 시 색상 손실을 최소화하면서 6개 색공간을 �
 
 **영감**: 색상 이론 전문성 + 접근성 가이드라인 준수의 필요성
 
-**관련 프로젝트**: heritage (디자인 시스템 관련)
-
 **참고 자료**:
 - WCAG 3.0 APCA 가이드라인
 - CSS Color Module Level 4 specification
