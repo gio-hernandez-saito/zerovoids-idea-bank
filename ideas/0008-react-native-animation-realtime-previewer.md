@@ -1,5 +1,5 @@
 ---
-id: idea-2024-01-20-001
+id: idea-0008
 title: "React Native 애니메이션 실시간 프리뷰어"
 generated: 2024-01-20T14:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 9
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.3
+  distinctness: 10
+  total: 8.04
   iterations: 2
   status: pass
 

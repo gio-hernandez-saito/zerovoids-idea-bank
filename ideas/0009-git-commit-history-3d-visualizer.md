@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-20-001
+id: idea-0009
 title: "Git 커밋 히스토리 3D 시각화 도구"
 generated: 2026-01-20T14:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 9
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.3
+  distinctness: 10
+  total: 7.92
   iterations: 1
   status: pass
 

@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-16-001
+id: idea-0002
 title: "인터랙티브 MCP 서버 오케스트레이터"
 generated: 2026-01-16T14:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 9
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.6
+  distinctness: 10
+  total: 8.12
   iterations: 1
   status: pass
 

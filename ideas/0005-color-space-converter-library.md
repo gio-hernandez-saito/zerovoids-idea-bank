@@ -1,9 +1,9 @@
 ---
-id: idea-2026-01-20-001
+id: idea-0005
 title: "색공간 변환 라이브러리"
 generated: 2026-01-20T14:30:00+09:00
 
-category: frontend
+category: utility
 subcategory: color-theory
 difficulty: intermediate
 tags: [color-theory, hsl, oklch, hct, accessibility, design-system, typescript]
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 8
   learning_value: 8
   open_source_value: 9
-  
-  total: 7.6
+  distinctness: 10
+  total: 8.26
   iterations: 1
   status: pass
 

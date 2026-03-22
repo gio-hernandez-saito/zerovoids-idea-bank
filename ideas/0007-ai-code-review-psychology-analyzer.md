@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-20-001
+id: idea-0007
 title: "AI 코드 리뷰 심리 분석기"
 generated: 2026-01-20T14:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 8
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.6
+  distinctness: 10
+  total: 8.00
   iterations: 1
   status: pass
 

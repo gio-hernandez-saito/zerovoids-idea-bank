@@ -1,12 +1,12 @@
 ---
-id: idea-2026-01-17-001
+id: idea-0003
 title: "컬러 팔레트 감정 매핑 도구"
 generated: 2026-01-17T14:30:00+09:00
 
 category: visualization
 subcategory: color-theory
 difficulty: intermediate
-tags: [color-theory, emotion-mapping, d3, hsl, oklch, psychology]
+tags: [color-theory, emotion-mapping, d3, oklch, psychology, design-tool]
 
 estimated_time: "2-3주"
 tech_stack: [React, TypeScript, D3.js, OKLCH, Canvas API]
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 8
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.3
+  distinctness: 10
+  total: 7.80
   iterations: 1
   status: pass
 

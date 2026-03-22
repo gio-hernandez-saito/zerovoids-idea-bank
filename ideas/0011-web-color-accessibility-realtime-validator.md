@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-20-001
+id: idea-0011
 title: "웹 페이지 색 접근성 실시간 검증기"
 generated: 2026-01-20T10:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 7
   learning_value: 8
   open_source_value: 8
-  
-  total: 7.3
+  distinctness: 10
+  total: 8.06
   iterations: 1
   status: pass
 

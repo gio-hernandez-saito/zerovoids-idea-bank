@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-20-001
+id: idea-0010
 title: "실시간 컴포넌트 성능 히트맵"
 generated: 2026-01-20T10:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 8
   learning_value: 7
   open_source_value: 8
-  
-  total: 7.3
+  distinctness: 10
+  total: 7.88
   iterations: 1
   status: pass
 

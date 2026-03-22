@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-20-001
+id: idea-0006
 title: "음성 기반 MCP 서버 제어기"
 generated: 2026-01-20T10:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 9
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.3
+  distinctness: 10
+  total: 7.74
   iterations: 1
   status: pass
 

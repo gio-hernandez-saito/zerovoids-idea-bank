@@ -1,12 +1,12 @@
 ---
-id: idea-2026-01-16-001
+id: idea-0001
 title: "야구 투구 시퀀스 예측 게임"
 generated: 2026-01-16T14:30:00+09:00
 
 category: gaming
 subcategory: sports-analytics
 difficulty: intermediate
-tags: [야구, 게임, 데이터-시각화, 예측, react, d3]
+tags: [baseball, game, data-visualization, prediction, react, d3]
 
 estimated_time: "2-3주"
 tech_stack: [React, TypeScript, D3.js, Vite, CSS3]
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 8
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.3
+  distinctness: 10
+  total: 7.80
   iterations: 1
   status: pass
 

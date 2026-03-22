@@ -1,5 +1,5 @@
 ---
-id: idea-2026-01-17-001
+id: idea-0004
 title: "컴포넌트 아키텍처 탐험가"
 generated: 2026-01-17T10:30:00+09:00
 
@@ -20,8 +20,8 @@ evaluation:
   tech_interest: 9
   learning_value: 8
   open_source_value: 7
-  
-  total: 7.3
+  distinctness: 10
+  total: 7.74
   iterations: 1
   status: pass
 
