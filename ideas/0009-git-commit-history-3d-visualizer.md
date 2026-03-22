@@ -6,7 +6,7 @@ generated: 2026-01-20T14:30:00+09:00
 category: visualization
 subcategory: developer-tool
 difficulty: intermediate
-tags: [git, 3d-visualization, three-js, developer-tools, typescript]
+tags: [git, 3d-visualization, three-js, developer-tool, typescript]
 
 estimated_time: "2-3 weeks"
 tech_stack: [Three.js, React, TypeScript, Git API, Vite]

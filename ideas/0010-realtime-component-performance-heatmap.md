@@ -6,7 +6,7 @@ generated: 2026-01-20T10:30:00+09:00
 category: developer-tool
 subcategory: react-performance
 difficulty: intermediate
-tags: [react, performance, visualization, devtools, typescript, profiling]
+tags: [react, performance, visualization, developer-tool, typescript, profiling]
 
 estimated_time: "2-3주"
 tech_stack: [React, TypeScript, React DevTools API, D3.js, Chrome Extension API]

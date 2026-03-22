@@ -6,7 +6,7 @@ generated: 2026-01-16T14:30:00+09:00
 category: gaming
 subcategory: sports-analytics
 difficulty: intermediate
-tags: [baseball, game, data-visualization, prediction, react, d3]
+tags: [baseball, game, visualization, prediction, react, d3]
 
 estimated_time: "2-3주"
 tech_stack: [React, TypeScript, D3.js, Vite, CSS3]
