@@ -1,0 +1,24 @@
+{
+  "name": "zerovoids-idea-bank-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "data": "node ../scripts/build-data.cjs",
+    "dev": "npm run data && astro dev",
+    "build": "npm run data && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.0.0",
+    "astro": "^5.0.0",
+    "d3": "^7.9.0",
+    "marked": "^17.0.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}

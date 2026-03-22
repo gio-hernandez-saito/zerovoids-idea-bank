@@ -1,0 +1,574 @@
+{
+  "nodes": [
+    {
+      "id": "idea-0001",
+      "type": "idea",
+      "label": "야구 투구 시퀀스 예측 게임",
+      "category": "gaming",
+      "score": 7.8,
+      "index": 1
+    },
+    {
+      "id": "idea-0002",
+      "type": "idea",
+      "label": "인터랙티브 MCP 서버 오케스트레이터",
+      "category": "automation",
+      "score": 8.12,
+      "index": 2
+    },
+    {
+      "id": "idea-0003",
+      "type": "idea",
+      "label": "컬러 팔레트 감정 매핑 도구",
+      "category": "visualization",
+      "score": 7.8,
+      "index": 3
+    },
+    {
+      "id": "idea-0004",
+      "type": "idea",
+      "label": "컴포넌트 아키텍처 탐험가",
+      "category": "developer-tool",
+      "score": 7.74,
+      "index": 4
+    },
+    {
+      "id": "idea-0005",
+      "type": "idea",
+      "label": "색공간 변환 라이브러리",
+      "category": "utility",
+      "score": 8.26,
+      "index": 5
+    },
+    {
+      "id": "idea-0006",
+      "type": "idea",
+      "label": "음성 기반 MCP 서버 제어기",
+      "category": "automation",
+      "score": 7.74,
+      "index": 6
+    },
+    {
+      "id": "idea-0007",
+      "type": "idea",
+      "label": "AI 코드 리뷰 심리 분석기",
+      "category": "developer-tool",
+      "score": 8,
+      "index": 7
+    },
+    {
+      "id": "idea-0008",
+      "type": "idea",
+      "label": "React Native 애니메이션 실시간 프리뷰어",
+      "category": "developer-tool",
+      "score": 8.04,
+      "index": 8
+    },
+    {
+      "id": "idea-0009",
+      "type": "idea",
+      "label": "Git 커밋 히스토리 3D 시각화 도구",
+      "category": "visualization",
+      "score": 7.92,
+      "index": 9
+    },
+    {
+      "id": "idea-0010",
+      "type": "idea",
+      "label": "실시간 컴포넌트 성능 히트맵",
+      "category": "developer-tool",
+      "score": 7.88,
+      "index": 10
+    },
+    {
+      "id": "idea-0011",
+      "type": "idea",
+      "label": "웹 페이지 색 접근성 실시간 검증기",
+      "category": "developer-tool",
+      "score": 8.06,
+      "index": 11
+    },
+    {
+      "id": "tag:baseball",
+      "type": "tag",
+      "label": "baseball",
+      "count": 1
+    },
+    {
+      "id": "tag:game",
+      "type": "tag",
+      "label": "game",
+      "count": 1
+    },
+    {
+      "id": "tag:visualization",
+      "type": "tag",
+      "label": "visualization",
+      "count": 3
+    },
+    {
+      "id": "tag:prediction",
+      "type": "tag",
+      "label": "prediction",
+      "count": 1
+    },
+    {
+      "id": "tag:react",
+      "type": "tag",
+      "label": "react",
+      "count": 4
+    },
+    {
+      "id": "tag:d3",
+      "type": "tag",
+      "label": "d3",
+      "count": 2
+    },
+    {
+      "id": "tag:mcp",
+      "type": "tag",
+      "label": "mcp",
+      "count": 2
+    },
+    {
+      "id": "tag:automation",
+      "type": "tag",
+      "label": "automation",
+      "count": 2
+    },
+    {
+      "id": "tag:visual-workflow",
+      "type": "tag",
+      "label": "visual-workflow",
+      "count": 1
+    },
+    {
+      "id": "tag:typescript",
+      "type": "tag",
+      "label": "typescript",
+      "count": 9
+    },
+    {
+      "id": "tag:claude-integration",
+      "type": "tag",
+      "label": "claude-integration",
+      "count": 1
+    },
+    {
+      "id": "tag:color-theory",
+      "type": "tag",
+      "label": "color-theory",
+      "count": 3
+    },
+    {
+      "id": "tag:emotion-mapping",
+      "type": "tag",
+      "label": "emotion-mapping",
+      "count": 1
+    },
+    {
+      "id": "tag:oklch",
+      "type": "tag",
+      "label": "oklch",
+      "count": 3
+    },
+    {
+      "id": "tag:psychology",
+      "type": "tag",
+      "label": "psychology",
+      "count": 2
+    },
+    {
+      "id": "tag:design-tool",
+      "type": "tag",
+      "label": "design-tool",
+      "count": 1
+    },
+    {
+      "id": "tag:three-js",
+      "type": "tag",
+      "label": "three-js",
+      "count": 2
+    },
+    {
+      "id": "tag:architecture",
+      "type": "tag",
+      "label": "architecture",
+      "count": 1
+    },
+    {
+      "id": "tag:metroidvania",
+      "type": "tag",
+      "label": "metroidvania",
+      "count": 1
+    },
+    {
+      "id": "tag:hsl",
+      "type": "tag",
+      "label": "hsl",
+      "count": 1
+    },
+    {
+      "id": "tag:hct",
+      "type": "tag",
+      "label": "hct",
+      "count": 1
+    },
+    {
+      "id": "tag:accessibility",
+      "type": "tag",
+      "label": "accessibility",
+      "count": 2
+    },
+    {
+      "id": "tag:design-system",
+      "type": "tag",
+      "label": "design-system",
+      "count": 1
+    },
+    {
+      "id": "tag:voice-control",
+      "type": "tag",
+      "label": "voice-control",
+      "count": 1
+    },
+    {
+      "id": "tag:speech-recognition",
+      "type": "tag",
+      "label": "speech-recognition",
+      "count": 1
+    },
+    {
+      "id": "tag:ai",
+      "type": "tag",
+      "label": "ai",
+      "count": 1
+    },
+    {
+      "id": "tag:code-review",
+      "type": "tag",
+      "label": "code-review",
+      "count": 1
+    },
+    {
+      "id": "tag:sentiment-analysis",
+      "type": "tag",
+      "label": "sentiment-analysis",
+      "count": 1
+    },
+    {
+      "id": "tag:react-native",
+      "type": "tag",
+      "label": "react-native",
+      "count": 1
+    },
+    {
+      "id": "tag:animation",
+      "type": "tag",
+      "label": "animation",
+      "count": 1
+    },
+    {
+      "id": "tag:real-time",
+      "type": "tag",
+      "label": "real-time",
+      "count": 1
+    },
+    {
+      "id": "tag:developer-tool",
+      "type": "tag",
+      "label": "developer-tool",
+      "count": 3
+    },
+    {
+      "id": "tag:git",
+      "type": "tag",
+      "label": "git",
+      "count": 1
+    },
+    {
+      "id": "tag:3d-visualization",
+      "type": "tag",
+      "label": "3d-visualization",
+      "count": 1
+    },
+    {
+      "id": "tag:performance",
+      "type": "tag",
+      "label": "performance",
+      "count": 1
+    },
+    {
+      "id": "tag:profiling",
+      "type": "tag",
+      "label": "profiling",
+      "count": 1
+    },
+    {
+      "id": "tag:browser-extension",
+      "type": "tag",
+      "label": "browser-extension",
+      "count": 1
+    },
+    {
+      "id": "tag:wcag",
+      "type": "tag",
+      "label": "wcag",
+      "count": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "idea-0001",
+      "target": "tag:baseball"
+    },
+    {
+      "source": "idea-0001",
+      "target": "tag:game"
+    },
+    {
+      "source": "idea-0001",
+      "target": "tag:visualization"
+    },
+    {
+      "source": "idea-0001",
+      "target": "tag:prediction"
+    },
+    {
+      "source": "idea-0001",
+      "target": "tag:react"
+    },
+    {
+      "source": "idea-0001",
+      "target": "tag:d3"
+    },
+    {
+      "source": "idea-0002",
+      "target": "tag:mcp"
+    },
+    {
+      "source": "idea-0002",
+      "target": "tag:automation"
+    },
+    {
+      "source": "idea-0002",
+      "target": "tag:visual-workflow"
+    },
+    {
+      "source": "idea-0002",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0002",
+      "target": "tag:claude-integration"
+    },
+    {
+      "source": "idea-0003",
+      "target": "tag:color-theory"
+    },
+    {
+      "source": "idea-0003",
+      "target": "tag:emotion-mapping"
+    },
+    {
+      "source": "idea-0003",
+      "target": "tag:d3"
+    },
+    {
+      "source": "idea-0003",
+      "target": "tag:oklch"
+    },
+    {
+      "source": "idea-0003",
+      "target": "tag:psychology"
+    },
+    {
+      "source": "idea-0003",
+      "target": "tag:design-tool"
+    },
+    {
+      "source": "idea-0004",
+      "target": "tag:react"
+    },
+    {
+      "source": "idea-0004",
+      "target": "tag:visualization"
+    },
+    {
+      "source": "idea-0004",
+      "target": "tag:three-js"
+    },
+    {
+      "source": "idea-0004",
+      "target": "tag:architecture"
+    },
+    {
+      "source": "idea-0004",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0004",
+      "target": "tag:metroidvania"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:color-theory"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:hsl"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:oklch"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:hct"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:accessibility"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:design-system"
+    },
+    {
+      "source": "idea-0005",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0006",
+      "target": "tag:mcp"
+    },
+    {
+      "source": "idea-0006",
+      "target": "tag:voice-control"
+    },
+    {
+      "source": "idea-0006",
+      "target": "tag:automation"
+    },
+    {
+      "source": "idea-0006",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0006",
+      "target": "tag:speech-recognition"
+    },
+    {
+      "source": "idea-0007",
+      "target": "tag:ai"
+    },
+    {
+      "source": "idea-0007",
+      "target": "tag:code-review"
+    },
+    {
+      "source": "idea-0007",
+      "target": "tag:psychology"
+    },
+    {
+      "source": "idea-0007",
+      "target": "tag:sentiment-analysis"
+    },
+    {
+      "source": "idea-0007",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0007",
+      "target": "tag:react"
+    },
+    {
+      "source": "idea-0008",
+      "target": "tag:react-native"
+    },
+    {
+      "source": "idea-0008",
+      "target": "tag:animation"
+    },
+    {
+      "source": "idea-0008",
+      "target": "tag:real-time"
+    },
+    {
+      "source": "idea-0008",
+      "target": "tag:developer-tool"
+    },
+    {
+      "source": "idea-0008",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0009",
+      "target": "tag:git"
+    },
+    {
+      "source": "idea-0009",
+      "target": "tag:3d-visualization"
+    },
+    {
+      "source": "idea-0009",
+      "target": "tag:three-js"
+    },
+    {
+      "source": "idea-0009",
+      "target": "tag:developer-tool"
+    },
+    {
+      "source": "idea-0009",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0010",
+      "target": "tag:react"
+    },
+    {
+      "source": "idea-0010",
+      "target": "tag:performance"
+    },
+    {
+      "source": "idea-0010",
+      "target": "tag:visualization"
+    },
+    {
+      "source": "idea-0010",
+      "target": "tag:developer-tool"
+    },
+    {
+      "source": "idea-0010",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0010",
+      "target": "tag:profiling"
+    },
+    {
+      "source": "idea-0011",
+      "target": "tag:accessibility"
+    },
+    {
+      "source": "idea-0011",
+      "target": "tag:color-theory"
+    },
+    {
+      "source": "idea-0011",
+      "target": "tag:browser-extension"
+    },
+    {
+      "source": "idea-0011",
+      "target": "tag:wcag"
+    },
+    {
+      "source": "idea-0011",
+      "target": "tag:oklch"
+    },
+    {
+      "source": "idea-0011",
+      "target": "tag:typescript"
+    }
+  ]
+}

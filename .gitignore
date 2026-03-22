@@ -8,3 +8,12 @@ Thumbs.db
 
 # OMC state
 .omc/
+
+# Node
+node_modules/
+package-lock.json
+
+# Build output
+site/dist/
+site/.astro/
+site/node_modules/
