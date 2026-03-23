@@ -21,12 +21,12 @@ export async function getStaticPaths() {
     return [];
   }
   return ideasData.map((idea: any) => ({
-    params: { id: String(idea.index).padStart(4, '0') },
+    params: { id: String(idea.ideaIndex).padStart(4, '0') },
   }));
 }
 
 const { id } = Astro.params;
-const idea = ideas.find(i => String(i.index).padStart(4, '0') === id);
+const idea = ideas.find(i => String(i.ideaIndex).padStart(4, '0') === id);
 
 if (!idea) {
   return Astro.redirect(import.meta.env.BASE_URL);
@@ -36,7 +36,7 @@ const htmlContent = await marked(idea.body || '');
 const base = import.meta.env.BASE_URL;
 
 // Prev/Next navigation
-const currentIdx = ideas.findIndex(i => i.index === idea.index);
+const currentIdx = ideas.findIndex(i => i.ideaIndex === idea.ideaIndex);
 const prev = currentIdx > 0 ? ideas[currentIdx - 1] : null;
 const next = currentIdx < ideas.length - 1 ? ideas[currentIdx + 1] : null;
 
@@ -62,7 +62,7 @@ const catColor = CATEGORY_COLORS[idea.category] || '#64748b';
   <div class="idea-header">
     <a href={base} class="back-link">← 아이디어 목록</a>
     <div class="idea-meta-row">
-      <span class="idea-index">#{String(idea.index).padStart(4, '0')}</span>
+      <span class="idea-index">#{String(idea.ideaIndex).padStart(4, '0')}</span>
       <span class="idea-category" style={`--cat-color: ${catColor}`}>{idea.category}</span>
       <span class="idea-difficulty">{idea.difficulty}</span>
       {idea.estimatedTime && <span class="idea-time">{idea.estimatedTime}</span>}
@@ -100,13 +100,13 @@ const catColor = CATEGORY_COLORS[idea.category] || '#64748b';
 
   <nav class="idea-nav">
     {prev && (
-      <a href={`${base}idea/${String(prev.index).padStart(4, '0')}/`} class="nav-prev">
-        ← #{String(prev.index).padStart(4, '0')} {prev.title}
+      <a href={`${base}idea/${String(prev.ideaIndex).padStart(4, '0')}/`} class="nav-prev">
+        ← #{String(prev.ideaIndex).padStart(4, '0')} {prev.title}
       </a>
     )}
     {next && (
-      <a href={`${base}idea/${String(next.index).padStart(4, '0')}/`} class="nav-next">
-        #{String(next.index).padStart(4, '0')} {next.title} →
+      <a href={`${base}idea/${String(next.ideaIndex).padStart(4, '0')}/`} class="nav-next">
+        #{String(next.ideaIndex).padStart(4, '0')} {next.title} →
       </a>
     )}
   </nav>

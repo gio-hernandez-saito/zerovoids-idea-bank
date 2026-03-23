@@ -200,7 +200,7 @@ export default function NetworkGraph({ data, basePath }: Props) {
     // Idea index label inside rect
     node.filter((d) => d.type === 'idea')
       .append('text')
-      .text((d) => `#${String(d.index).padStart(4, '0')}`)
+      .text((d) => `#${String(d.ideaIndex).padStart(4, '0')}`)
       .attr('text-anchor', 'middle')
       .attr('dy', '0.35em')
       .attr('font-size', '8px')
@@ -297,7 +297,7 @@ export default function NetworkGraph({ data, basePath }: Props) {
     node.on('click', (event, d) => {
       event.stopPropagation();
       if (d.type === 'idea') {
-        window.location.href = `${basePath}idea/${String(d.index).padStart(4, '0')}/`;
+        window.location.href = `${basePath}idea/${String(d.ideaIndex).padStart(4, '0')}/`;
       }
     });
 

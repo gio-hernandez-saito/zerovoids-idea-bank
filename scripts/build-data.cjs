@@ -17,6 +17,7 @@ function parseFrontmatter(content) {
 
   for (const line of fmBlock.split('\n')) {
     if (line.trim() === 'evaluation:') { inEvaluation = true; continue; }
+    if (inEvaluation && line.trim() === '') continue; // skip blank lines inside evaluation
     if (inEvaluation && /^\s+\w/.test(line)) {
       const ci = line.indexOf(':');
       if (ci !== -1) {
@@ -61,7 +62,7 @@ function buildIdeasJson() {
     const index = indexMatch ? parseInt(indexMatch[1], 10) : 0;
 
     ideas.push({
-      index,
+      ideaIndex: index,
       filename: file,
       id: frontmatter.id || `idea-${String(index).padStart(4, '0')}`,
       title: frontmatter.title || file.replace(/\.md$/, ''),
@@ -101,7 +102,7 @@ function buildNetworkJson(ideas) {
       label: idea.title,
       category: idea.category,
       score: idea.evaluation.total || 0,
-      index: idea.index,
+      ideaIndex: idea.ideaIndex,
     });
   }
 

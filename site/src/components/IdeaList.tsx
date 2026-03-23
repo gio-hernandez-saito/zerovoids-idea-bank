@@ -74,7 +74,7 @@ export default function IdeaList({ ideas, basePath }: Props) {
         {filtered.map(idea => (
           <a
             key={idea.id}
-            href={`${basePath}idea/${String(idea.index).padStart(4, '0')}/`}
+            href={`${basePath}idea/${String(idea.ideaIndex).padStart(4, '0')}/`}
             style={{
               display: 'block',
               background: '#1e293b',
@@ -90,7 +90,7 @@ export default function IdeaList({ ideas, basePath }: Props) {
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
               <span style={{ color: '#64748b', fontSize: '0.75rem', fontFamily: 'Fira Code, monospace' }}>
-                #{String(idea.index).padStart(4, '0')}
+                #{String(idea.ideaIndex).padStart(4, '0')}
               </span>
               <span style={{
                 fontSize: '0.7rem',
