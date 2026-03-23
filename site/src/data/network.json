@@ -6,7 +6,7 @@
       "label": "야구 투구 시퀀스 예측 게임",
       "category": "gaming",
       "score": 7.8,
-      "index": 1
+      "ideaIndex": 1
     },
     {
       "id": "idea-0002",
@@ -14,7 +14,7 @@
       "label": "인터랙티브 MCP 서버 오케스트레이터",
       "category": "automation",
       "score": 8.12,
-      "index": 2
+      "ideaIndex": 2
     },
     {
       "id": "idea-0003",
@@ -22,7 +22,7 @@
       "label": "컬러 팔레트 감정 매핑 도구",
       "category": "visualization",
       "score": 7.8,
-      "index": 3
+      "ideaIndex": 3
     },
     {
       "id": "idea-0004",
@@ -30,7 +30,7 @@
       "label": "컴포넌트 아키텍처 탐험가",
       "category": "developer-tool",
       "score": 7.74,
-      "index": 4
+      "ideaIndex": 4
     },
     {
       "id": "idea-0005",
@@ -38,7 +38,7 @@
       "label": "색공간 변환 라이브러리",
       "category": "utility",
       "score": 8.26,
-      "index": 5
+      "ideaIndex": 5
     },
     {
       "id": "idea-0006",
@@ -46,7 +46,7 @@
       "label": "음성 기반 MCP 서버 제어기",
       "category": "automation",
       "score": 7.74,
-      "index": 6
+      "ideaIndex": 6
     },
     {
       "id": "idea-0007",
@@ -54,7 +54,7 @@
       "label": "AI 코드 리뷰 심리 분석기",
       "category": "developer-tool",
       "score": 8,
-      "index": 7
+      "ideaIndex": 7
     },
     {
       "id": "idea-0008",
@@ -62,7 +62,7 @@
       "label": "React Native 애니메이션 실시간 프리뷰어",
       "category": "developer-tool",
       "score": 8.04,
-      "index": 8
+      "ideaIndex": 8
     },
     {
       "id": "idea-0009",
@@ -70,7 +70,7 @@
       "label": "Git 커밋 히스토리 3D 시각화 도구",
       "category": "visualization",
       "score": 7.92,
-      "index": 9
+      "ideaIndex": 9
     },
     {
       "id": "idea-0010",
@@ -78,7 +78,7 @@
       "label": "실시간 컴포넌트 성능 히트맵",
       "category": "developer-tool",
       "score": 7.88,
-      "index": 10
+      "ideaIndex": 10
     },
     {
       "id": "idea-0011",
@@ -86,7 +86,15 @@
       "label": "웹 페이지 색 접근성 실시간 검증기",
       "category": "developer-tool",
       "score": 8.06,
-      "index": 11
+      "ideaIndex": 11
+    },
+    {
+      "id": "idea-0012",
+      "type": "idea",
+      "label": "별자리 날씨 예보 시각화 도구",
+      "category": "visualization",
+      "score": 7.48,
+      "ideaIndex": 12
     },
     {
       "id": "tag:baseball",
@@ -122,7 +130,7 @@
       "id": "tag:d3",
       "type": "tag",
       "label": "d3",
-      "count": 2
+      "count": 3
     },
     {
       "id": "tag:mcp",
@@ -146,7 +154,7 @@
       "id": "tag:typescript",
       "type": "tag",
       "label": "typescript",
-      "count": 9
+      "count": 10
     },
     {
       "id": "tag:claude-integration",
@@ -314,6 +322,36 @@
       "id": "tag:wcag",
       "type": "tag",
       "label": "wcag",
+      "count": 1
+    },
+    {
+      "id": "tag:weather",
+      "type": "tag",
+      "label": "weather",
+      "count": 1
+    },
+    {
+      "id": "tag:astronomy",
+      "type": "tag",
+      "label": "astronomy",
+      "count": 1
+    },
+    {
+      "id": "tag:canvas",
+      "type": "tag",
+      "label": "canvas",
+      "count": 1
+    },
+    {
+      "id": "tag:open-meteo",
+      "type": "tag",
+      "label": "open-meteo",
+      "count": 1
+    },
+    {
+      "id": "tag:geolocation",
+      "type": "tag",
+      "label": "geolocation",
       "count": 1
     }
   ],
@@ -568,6 +606,34 @@
     },
     {
       "source": "idea-0011",
+      "target": "tag:typescript"
+    },
+    {
+      "source": "idea-0012",
+      "target": "tag:weather"
+    },
+    {
+      "source": "idea-0012",
+      "target": "tag:astronomy"
+    },
+    {
+      "source": "idea-0012",
+      "target": "tag:d3"
+    },
+    {
+      "source": "idea-0012",
+      "target": "tag:canvas"
+    },
+    {
+      "source": "idea-0012",
+      "target": "tag:open-meteo"
+    },
+    {
+      "source": "idea-0012",
+      "target": "tag:geolocation"
+    },
+    {
+      "source": "idea-0012",
       "target": "tag:typescript"
     }
   ]
