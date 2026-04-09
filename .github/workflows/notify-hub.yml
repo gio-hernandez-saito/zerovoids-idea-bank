@@ -1,0 +1,19 @@
+name: Notify Hub
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ideas/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger hub content update
+        run: |
+          gh api repos/gio-hernandez-saito/zerovoids-hub/dispatches \
+            -f event_type=content-updated \
+            -f 'client_payload[source]=idea-bank'
+        env:
+          GH_TOKEN: ${{ secrets.HUB_TRIGGER_TOKEN }}
